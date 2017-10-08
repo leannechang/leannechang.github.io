@@ -6,9 +6,14 @@
     font-family: Raleway;
     src: url(fonts/Raleway.ttf);
 }
-
-body{
-    background-image: url(images/wood.jpg);
+@font-face{
+    font-family: Nova;
+    src: url(fonts/NOVABOLD.otf);
+}
+@font-face{
+    font-family: Novaa;
+    src: url(fonts/nova.regular.otf);
+}
     
     
 
@@ -28,7 +33,15 @@ p{
 nav{
     font-family: "Arial", sans-serif;
 }
-
+table{
+    font-family: "Raleway", sans-serif;
+}
+ol{
+    font-family: "Raleway", sans-serif;
+}
+ul{
+    font-family: "Raleway", sans-serif;
+}
 #nav {
     list-style-type: none;
     margin: -8px;
