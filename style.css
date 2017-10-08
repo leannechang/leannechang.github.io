@@ -2,6 +2,11 @@
     font-family: Twilight;
     src: url(fonts/OctoberTwilight.ttf);
 }
+@font-face{
+    font-family: Raleway;
+    src: url(fonts/Raleway.ttf);
+}
+
 body{
     background-image: url(images/wood.jpg);
     
@@ -12,10 +17,16 @@ h1{
     font-family: "Twilight", sans-serif;
 }
 h2{
-    font-family: "Arial", serif;
+    font-family: "Raleway", sans-serif;
+}
+h3{
+    font-family: "Raleway", sans-serif;
 }
 p{
-    font-family: "Georgia", sans-serif;
+    font-family: "Raleway", sans-serif;
+}
+nav{
+    font-family: "Arial", sans-serif;
 }
 
 #nav {
@@ -27,14 +38,14 @@ p{
 }
 
 #nav li {
-    float: left;
+    float: right;
 }
 
 #nav li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
 }
 #nav li a:hover {
